@@ -6,3 +6,8 @@ body{
     display: grid;
     grid-template-columns: auto auto;
 }
+
+#girl{
+    border-image:round;
+    border-radius: 50px;
+}

@@ -1,8 +1,9 @@
 body{
     background-color: whitesmoke;
+    overflow-x: hidden;
 }
 
-.header{
+#container1{
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 120px;
@@ -42,13 +43,4 @@ button{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     place-items: center;   
-    grid-column-gap: 90px;
-    grid-row-gap: 80px;
-    margin: 50px 200px;
-    
-}
-
-.wave{
-    border-image: 20px;
-    border-radius: 10px;
 }
